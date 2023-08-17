@@ -1,0 +1,31 @@
+.info{
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    p{
+        font-size: 14px;
+    }
+    color: white;
+    z-index: 10;
+}
+.info__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+.info__tags {
+    display: flex;
+    gap: 10px;
+}
+.info__tag {
+    padding: 5px 20px;
+    border-radius: 50px;
+    background-color: rgba(26, 26, 26, 0.60);
+    color: #DFDFDF;
+    font-size: 13px;
+}

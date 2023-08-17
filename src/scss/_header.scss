@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    button:hover{
+        & svg{
+            fill: rgb(101, 58, 118);
+        }
+    }
+}
+.header__pagination{
+    display: flex;
+    gap: 5px;
+}
+.header__btn{
+	width: 6px;
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.4s ease;
+    border-radius: 50%;
+    &.active{
+        background-color: #7E34D1;
+        width: 32px;
+        border-radius: 50px;
+    }
+}
+
